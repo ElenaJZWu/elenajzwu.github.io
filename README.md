@@ -1,4 +1,4 @@
-## Welcome to Wuuuu's page
+## Welcome to Wuuu's page
 
 You can use the [editor on GitHub](https://github.com/ElenaJZWu/elenajzwu.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
