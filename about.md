@@ -18,8 +18,9 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
+This is Jiaozi Wu. I received my master degree from the Hong Kong University in 2019. Currently I 
+work for xxxx.
 
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
+<div style="width:80%; margin:0 auto;" align="center" markdown="1">
+![Image](./assets/images/avatar.jpeg "Image_circle+shadow"){:.circle.shadow}
+</div>
