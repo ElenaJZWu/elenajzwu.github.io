@@ -1,7 +1,7 @@
 Jiaozhe Wu:
   name: Jiaozhe Wu # your Name
   url: https://elenajzwu.github.io/
-  avatar: ../assets/images/JZ-icon.png # your photo
+  avatar: /assets/images/JZ-icon.png # your photo
   bio: Media Editor
   email: jiaozhewu@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
