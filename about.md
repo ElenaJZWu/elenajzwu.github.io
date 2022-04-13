@@ -18,9 +18,11 @@ titles:
 key: page-about
 ---
 
-This is Jiaozi Wu. I received my master degree from the Hong Kong University in 2019. Currently I 
-work for xxxx.
-
 <div style="width:40%; margin:0 auto;" align="center" markdown="1">
 ![Image](./assets/images/avatar.jpeg "Image_circle+shadow"){:.circle.shadow}
 </div>
+
+Hi, I am Jiaozi Wu. I received my master degree from the Hong Kong University in 2019. Currently I 
+work for xxxx.
+
+__Software:__ `Photoshop`, `xxx`, `xxx`, `xxx`, `xxx`
