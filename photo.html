@@ -5,28 +5,28 @@ permalink: /photo.html
 ---
 
 <div class="layout--articles">
-        <div class="grid">
-            <div class="cell cell--12 cell--lg-6 p-2 content">
-                {% for file in site.static_files %}
-                  {% if file.photo %}
-                    {% assign last_digit =  file.basename | slice:-1  %}
-                    {% assign odd = last_digit | modulo: 2 %}
-                    {% if odd == 1 %}
-                      <img class="p-4" src="{{ file.path }}" alt="{{ file.name }}" width=100%> <br>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-            </div>
-            <div class="cell cell--12 cell--lg-6 p-2 content">
-                {% for file in site.static_files %}
-                  {% if file.photo %}
-                    {% assign last_digit =  file.basename | slice:-1  %}
-                    {% assign odd = last_digit | modulo: 2 %}
-                    {% if odd == 0 %}
-                      <img class="p-4" src="{{ file.path }}" alt="{{ file.name }}" width=100%> <br>
-                    {% endif %}
-                  {% endif %}
-                {% endfor %}
-            </div>
+    <div class="grid">
+        <div class="cell cell--12 cell--lg-6 p-2 content">
+            {% for file in site.static_files %}
+              {% if file.photo %}
+                {% assign last_digit =  file.basename | slice:-1  %}
+                {% assign odd = last_digit | modulo: 2 %}
+                {% if odd == 1 %}
+                  <img class="p-4" src="{{ file.path }}" alt="{{ file.name }}" width=100%> <br>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
         </div>
-  </div>
+        <div class="cell cell--12 cell--lg-6 p-2 content">
+            {% for file in site.static_files %}
+              {% if file.photo %}
+                {% assign last_digit =  file.basename | slice:-1  %}
+                {% assign odd = last_digit | modulo: 2 %}
+                {% if odd == 0 %}
+                  <img class="p-4" src="{{ file.path }}" alt="{{ file.name }}" width=100%> <br>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</div>
